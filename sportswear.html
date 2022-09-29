@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nabla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nabla&family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nabla&family=Orbitron:wght@500&family=Sora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nabla&family=Orbitron:wght@500&family=Sora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=MuseoModerno&family=Nabla&family=Orbitron:wght@500&family=Sora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@600&family=Bebas+Neue&family=Kanit&family=Syne:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@600&family=Bebas+Neue&family=Kanit&family=Roboto:wght@300&family=Syne:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>The Wardrobe</title>
+  </head>
+
+  <body>
+    <header>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <span class="material-symbols-outlined">arrow_upward</span>
+      </button>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" style="border: none;" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <form>
+            <i class="fa fa-search" style="font-size: 15px"></i>
+            <input type="text" name="search" placeholder="Search for products..">
+          </form>
+          <a href="index.html">Home</a>
+          <a href="womenswear.html">Ladieswear</a>
+          <a href="menswear.html">Menswear</a>
+          <a href="footwear.html">Footwear</a>
+          <a href="sportswear.html">Sportswear</a>
+        </div>
+      </div>
+
+      <span onclick="openNav()">&#9776;</span>
+      <div class="logo">
+        <!-- <img src="The Wardrobe Logo.png" width="5%" height="5%" /> -->
+
+        <span class="material-symbols-outlined">shopping_bag</span>
+      </div>
+    </header>
+
+    <div class="row">
+      <h2>Basketball sport collection</h2>
+      <div class="column">
+        <div class="card">
+          <img src="./sport_1_women.webp" />
+          <p>PFC HALF ZIP TRENCH</p>
+          <h3>R 600</h3>
+        </div>
+        <div class="card">
+          <img src="./sports_women_2.webp" />
+          <p>Relaxed-fit zip-neck sweater in a cotton blend</p>
+          <h3>R 500.</h3>
+        </div>
+        <div class="card">
+          <img src="./sports_women_3.webp" />
+          <p>Cotton-blend polo sweater with zip placket</p>
+          <h3>R 900</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./raiders_short_sleeve.webp" />
+            <p>Dodgers short sleeve</p>
+            <h3>R 1000</h3>
+          </div>
+          <div class="card">
+            <img src="./yankees_multilog_tshirt.webp" />
+            <p>New York Yankees Multi logo t-shirt</p>
+            <h3>R 1,500.</h3>
+          </div>
+          <div class="card">
+            <img src="./dodgers_multilogo_tshirt.webp" />
+            <p>Dodgers multi logo t-shirt</p>
+            <h3>R 1000</h3>
+          </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+
+  <footer>
+    <div class="footer-content">
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Legal Notices</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Social</a></li>
+      </ul>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
+}
+
+/* Navigation btn */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 14px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px 5px;
+  border-radius: 50px;
+}
+
+#myBtn .material-symbols-outlined {
+  color: #000000;
+  font-size: 25px;
+  padding: 1rem;
+}
+/* End of navigation btn style */
+
+/* Navigation styling */
+
+form {
+  padding: 25px 15px;
+  border-bottom: 0.25px solid rgba(128, 128, 128, 0.171);
+  border-bottom-width: 20%;
+}
+input[type="text"] {
+  width: 90%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 30px 25px 12px 30px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 1px 0px rgb(190, 190, 190);
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: left;
+  margin: 30px;
+}
+
+.overlay a {
+  border-bottom: 0.25px solid rgba(128, 128, 128, 0.171);
+  border-bottom-width: 20%;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 100;
+  color: rgb(46, 46, 46);
+  text-transform: uppercase;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* End of navigation styling */
+.logo {
+  padding: 40px 20px 40px 70px;
+  text-align: center;
+}
+
+header .material-symbols-outlined {
+  float: right;
+  padding: 4px 65px 60px 10px;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+body {
+  background: #fffffc;
+}
+
+header {
+  height: 20vh;
+}
+
+header span {
+  font-size: 35px;
+  cursor: pointer;
+  float: left;
+  padding: 35px 70px;
+  color: #000000;
+}
+
+section {
+  padding: 8rem 6rem;
+}
+
+section h1 {
+  font-size: 35px;
+  padding-bottom: 3rem;
+  color: gray;
+}
+.cta {
+  display: flex;
+  height: 600px;
+  background: #f7f4f3;
+  border: 1px solid black;
+}
+
+.cta-img img {
+  height: 100%;
+}
+
+.cta-heading h2 {
+  font-size: 35px;
+  text-align: left;
+}
+
+.cta-heading a {
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.cta-heading .material-symbols-outlined {
+  float: right;
+  font-weight: 100;
+  font-size: 30px;
+  padding: 4px 0px;
+  color: black;
+}
+.cta-heading {
+  padding: 250px 0px 70px 5px;
+}
+
+.row {
+  height: 820px;
+}
+
+.row h2 {
+  text-align: left;
+  font-size: 35px;
+  padding: 70px 0px 0px 150px;
+  color: gray;
+}
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 15px;
+}
+
+.card {
+  height: 490px;
+  width: 400px;
+  margin: 40px 15px 15px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.card p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-top: 7px;
+  color: gray;
+}
+
+.card h3 {
+  padding: 7px 0;
+  font-size: 20px;
+}
+.card img {
+  height: 100%;
+}
+.card img:hover {
+  border: 5px solid transparent;
+}
+.subscribe-btn {
+  background: #cdd1c4;
+  height: 400px;
+}
+.subscribe-btn .material-symbols-outlined {
+  padding: 20px 0px;
+}
+
+.input {
+  text-align: center;
+  padding-top: 140px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.log img {
+  width: 190px;
+  height: 190px;
+  padding: 0px 20px;
+}
+
+.paragraph {
+  margin: 5rem;
+  font-size: 20px;
+}
+label {
+  color: #ffffff;
+  font-size: 60px;
+}
+
+input {
+  width: 30%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid #ffffff;
+}
+
+i {
+  color: rgb(172, 172, 169);
+}
+footer {
+  height: 100px;
+}
+
+.footer-content ul {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 0px 80px;
+}
+
+.footer-content ul li {
+  list-style: none;
+  text-align: right;
+  padding: 45px 35px;
+}
+
+.footer-content a {
+  color: black;
+  text-decoration: none;
+}
